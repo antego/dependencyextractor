@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 public class LibNodeTest {
     @Test
     public void shouldCreateJarNode() {
-        LibNode parentLibNode = new LibNode(null, LibNodeType.FOLDER, "parent");
+        LibNode parentLibNode = new LibNode(null, LibNodeType.DIRECTORY, "parent");
         LibNode libNode = new LibNode(parentLibNode, LibNodeType.JAR, "nodeName");
 
         assertEquals("Wrong type", LibNodeType.JAR, libNode.getType());

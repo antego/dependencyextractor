@@ -1,4 +1,4 @@
 package com.github.antego.dependencyextractor;
 
 
-public enum LibNodeType {FOLDER, JAR, CLASS}
+public enum LibNodeType {DIRECTORY, JAR, CLASS}
